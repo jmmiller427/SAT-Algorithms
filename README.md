@@ -1,6 +1,10 @@
 # SAT-Algorithms
 Three satisfying algorithm implementations. 
 
+These algorithms take in conjunctive normal form equations and each try to find a satisfying solution for each one. There are two files of .cnf files. One has ten files with 40-48 clauses of ten variables. The other has three hundred files with 410-460 clauses of 100 variables. The clauses are 1-10 and its negatives. The negatives represent negations of the posititve numbers. 
+
+A formula is generated to try and satisfy these the clauses. The formula is 1's and 0's representing true and false. If a variable in a clause is positive a 1 represents a truth statement. If it is negative a 0 would represent a truth statement. 
+
 There are 6 total files in my project. The main file is named SAT.py. It calls and runs the Simulated Annealing,
 GSAT, and Genetic Algorithms. Each one of those calls and uses the Cost function and a there is a README.
 
