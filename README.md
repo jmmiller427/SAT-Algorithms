@@ -5,8 +5,7 @@ These algorithms take in conjunctive normal form equations and each try to find 
 
 A formula is generated to try and satisfy these the clauses. The formula is 1's and 0's representing true and false. If a variable in a clause is positive a 1 represents a truth statement. If it is negative a 0 would represent a truth statement. 
 
-There are 6 total files in my project. The main file is named SAT.py. It calls and runs the Simulated Annealing,
-GSAT, and Genetic Algorithms. Each one of those calls and uses the Cost function and a there is a README.
+After each algorithm was ran, graphs were made using matplotlib to display the CPU time each algorithm took for each formula and a graph to show the total number of clauses satisfied. 
 
 Simulated Annealing: The simulating annealing algorithm starts out by creating a random formula to try and satisfy
                      the clauses. Then a neighbor is created that is close to the original. The cost of each one
